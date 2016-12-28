@@ -44,6 +44,7 @@ p {
 }
 .bg-primary {
   background-color: #F1AF1B;
+  background-image: url('../img/folhas.jpg');
 }
 .bg-dark {
   background-color: #222222;
@@ -233,7 +234,7 @@ header .header-content .header-content-inner p {
   color: white;
   opacity: 0;
   display: block;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(241, 175, 27, 0.9);
   position: absolute;
   bottom: 0;
   text-align: center;
