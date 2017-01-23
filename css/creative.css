@@ -42,6 +42,15 @@ p {
   line-height: 1.5;
   margin-bottom: 20px;
 }
+
+.strokeme{
+  color: white;
+  text-shadow:
+  -2px -2px 0 #000,
+  2px -2px 0 #000,
+  -2px 2px 0 #000,
+  2px 2px 0 #000;  
+}
 .bg-primary {
   background-color: #F1AF1B;
   background-image: url('../img/folhas.jpg');
@@ -394,6 +403,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
   padding: 15px 30px;
 }
+
 ::-moz-selection {
   color: white;
   text-shadow: none;
