@@ -60,6 +60,27 @@
 		tr{
 			font-size: 10px;
 		}
+
+		.alert{
+			text-align: center;
+		}
+
+		.closebtn {
+			margin-left: 15px;
+			font-weight: bold;
+			float: right;
+			font-size: 22px;
+			line-height: 20px;
+			cursor: pointer;
+			transition: 0.3s;
+		}
+
+		/* When moving the mouse over the close button */
+		.closebtn:hover {
+			color: black;
+		}
+
+	
 	</style>
 
 </head>
@@ -105,9 +126,15 @@
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
+			<div class="alert alert-warning">
+				<span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+				<strong>ATENÇÃO: O prazo para submissão de trabalhos foi extendido até o dia 15/08/2017</strong>
+			</div>
         </div>
         <!-- /.container-fluid -->
     </nav>
+
+
 
     <header>
         <div class="header-content">
@@ -124,6 +151,7 @@
             </div>
         </div>
     </header>
+
 
     <section id="about" class="bg-primary">
         <div class="container">
@@ -443,7 +471,7 @@
 				      		<br>
 				      		<li style="font-weight: bold">Pesquisador/autor que for fazer a submissão de trabalho para o carbono 2017</li>
 				      		<ul>
-				      			<li>Os participantes que desejarem submeter trabalhos para apresentação oral ou em forma de pôsteres deverão fazer sua inscrição e <strong>submeter o trabalho, de acordo com o template</strong> disponibilizado no <strong>ícone “Arquivos do congresso”</strong> para avaliação da comissão científica <strong>até a data limite de 30/07/2017</strong>. Todos os trabalhos submetidos estarão sujeitos a solicitações de melhorias por parte da comissão científica.</li>
+				      			<li>Os participantes que desejarem submeter trabalhos para apresentação oral ou em forma de pôsteres deverão fazer sua inscrição e <strong>submeter o trabalho, de acordo com o template</strong> disponibilizado no <strong>ícone “Arquivos do congresso”</strong> para avaliação da comissão científica <strong>até a data limite <del>de 30/07/2017</del> expandida até 15/08/2017</strong>. Todos os trabalhos submetidos estarão sujeitos a solicitações de melhorias por parte da comissão científica.</li>
 				      			<li>A submissão do trabalho deverá ser feita por meio de envio de arquivo em Word, nos moldes do template disponibilizado, para o email <font color="blue">ccientifico.carbono2017@gmail.com</font>.</li>
 				      			<li>Cada inscrição dará direito a duas submissões.</li>
 				      			<li><strong>Todos os trabalhos submetidos, cujos autores, não efetuarem o pagamento da inscrição, prazo máximo 30/08/2017, serão excluídos do congresso.</strong></li>
